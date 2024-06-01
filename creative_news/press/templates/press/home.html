@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../static/press/style.css">
+</head>
+<body>
+    <div class="container" style="display: flex; gap: 10px;">
+        {% for n in news %}
+        <div class="news-card">
+        <img src="https://images.oxu.az/2024/05/31/nQgwliqu0jTImRkBEcEdjOflLiIgeuBldHGM65MK:640.jpg" alt="News Image" class="news-image">
+        <div class="news-content">
+            <h2 class="news-title">{{ n.title }}</h2>
+            <p class="news-description">{{ n.description }}</p>
+            <a href="#" class="news-link">Read more</a>
+        </div>
+        </div>
+        {% endfor %}
+</div>
+</body>
+</html>
