@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0;
+}
+
+.news-card {
+    top: 20px;  /* Adjust as needed */
+    left: 20px;  /* Adjust as needed */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+}
+
+.news-content {
+    padding: 15px;
+}
+
+.news-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.news-description {
+    color: #555;
+    margin: 0 0 15px;
+}
+
+.news-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
